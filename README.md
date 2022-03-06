@@ -9,7 +9,7 @@ My Python code can be found in NYC_CitiBike_Challenge.ipynb. </p>
 </p>
 
 ## Results
-*	Using data from Citi Bike’s website, I downloaded the August 2019 trip dataset. This was to view the peak riding month for the bike sharing service. I used Python and Pandas to change the “tripduration” column from an integer to a datetime datatype. This allowed me to create a series of visualizations using this data. Visualizations created were the following:
+Using data from Citi Bike’s website, I downloaded the August 2019 trip dataset. This was to view the peak riding month for the bike sharing service. I used Python and Pandas to change the “tripduration” column from an integer to a datetime datatype. This allowed me to create a series of visualizations using this data. Visualizations created were the following:
 *	Checkout Times for Users: this is a graph of the length of time that bikes are checked out for all riders. The graph indicates that most of the trips are under 20  minutes and a mode of 5-minute trip duration with 146,752 trips or 6% of the total 2,344,224 trips in the month of August 2019.
 ![Checkout_times_for_users.png](https://github.com/Robertfnicholson/Bikesharing/blob/462ac8f68989aa0c32f5186663ac3a3d5878f094/Checkout_times_for_users.png)
 *	Checkout Times by Gender: this is a graph of the length of time that bikes are checked out by gender. Although males had more trips, the genders have similar trip duration with a mode of 6 minutes for males with 108,087 trips or 7% of the total 1,530,272 trips and a mode of 5 minutes for females with 34,151 or 6% of the total 588,431 trips.
@@ -22,8 +22,8 @@ My Python code can be found in NYC_CitiBike_Challenge.ipynb. </p>
 ![User_trips_by_gender_by_weekday.png](https://github.com/Robertfnicholson/Bikesharing/blob/462ac8f68989aa0c32f5186663ac3a3d5878f094/User_trips_by_gender_by_weekday.png)
 The next four graphs are contained in the Trip Detail Dashboard shown below.
 *	Average Trip Duration: this graph displays the average trip duration by the rider’s birth year. This shows that younger riders tend to have longer average trip duration.
-![Trip_detail_dashboard.png](https://github.com/Robertfnicholson/Bikesharing/blob/462ac8f68989aa0c32f5186663ac3a3d5878f094/User_trips_by_gender_by_weekday.png)
-*	Bike Utilization: this is a heatmap providing the number of trips by Bikeid. This will assist in identifying the bikes with the highest utilization rates, those in dark color for a preventative maintenance program. 
+![Trip_detail_dashboard.png](https://github.com/Robertfnicholson/Bikesharing/blob/5e34dc533dde64f0eeee6ab04cd22114f814fbc2/Trip_detail_dashboard.png)
+*	Bike Utilization: this is a heatmap providing the number of trips by Bikeid. This will assist in identifying the bikes with the highest utilization rates, those in dark color, for a preventative maintenance program. 
 *	Top Starting Locations: this is a heat map of the top trip starting positions. This can assist in relocating bicycles, if necessary, to maximize utilization rates.
 *	Top Ending Locations: this is a heat map of the top trip ending positions. This can assist in relocating bicycles, if necessary, to maximize utilization rates.
 
